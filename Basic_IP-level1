@@ -1,0 +1,10 @@
+1.Print  Let's learn 'PYTHON' with Selvi
+2.Print  Success is when your "signature" becomes "autograph"
+3.Print \,%%,\\
+4.Read an integer and print the accepted integer value.
+5.Accept a character and print the character
+6.Declare 2 integer variables and initialize their values as 20 and 10
+7.Accept multiple input from user and display
+8.Given 2 numbers, print the first number as a 5-digit number and print the second number in the next line with 5 width space
+9.ASCII value--------------ord(ch)
+10.int value for character----------------chr(ch)
