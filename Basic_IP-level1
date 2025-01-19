@@ -1,3 +1,31 @@
+Datatype variable
+item_id=1----->int
+item_name='rice'----->str
+item_stock=False---->bool
+item_price=2500.50---->float
+
+Variable name
+Dos                       Donts
+_ or str                  123 or special char
+descriptive                random
+Case sensitive
+
+Variable decalartion
+Var_name=(dt)value
+
+
+dynamic typing
+item_id='xyz'
+
+Typecasting
+int to str
+
+viceverse
+int to float
+int to bool
+bool to str
+
+
 1.Print  Let's learn 'PYTHON' with Selvi
 2.Print  Success is when your "signature" becomes "autograph"
 3.Print \,%%,\\
