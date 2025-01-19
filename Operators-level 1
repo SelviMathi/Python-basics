@@ -1,0 +1,50 @@
+1.Addition
+num1=int(input())
+num2=int(input())
+print((num1+num2))
+
+2.Absolute difference
+num1=int(input())
+num2=int(input())
+print(abs(num1-num2))
+
+3.Accept two integers and print quotient  with 16 decimal places and print the remainder in next line.
+num1 = int(input())
+num2 = int(input())
+print(f"{num1 / num2:.16f}")
+print(num1 % num2)
+
+
+4.Swap with temp variable
+num1=int(input())
+num2=int(input())
+temp=num1
+num1=num2
+num2=temp
+print("num1=",num1,sep="")
+print("num2=",num2,sep="")
+
+
+5.Swap without temp variable
+num1=int(input())
+num2=int(input())
+num1,num2=num2,num1
+print("num1=",num1,sep="")
+print("num2=",num2,sep="")
+
+6.Write a program to read the total seconds and print the seconds in time formet Examble :hr:min:sec
+sec=int(input())
+hours=sec/3600
+minutes=(sec%3600)/60
+sec=(sec%3600)%60
+print("%0d:HOUR %02d:MIN %02d:SEC" % (hours, minutes, sec))
+
+7.Write a program to calculate the number of years,weeks and the remaining days for the given total days
+
+nod=int(input())
+year=nod/365
+month=(nod%365)/7
+days=(nod%365)%7
+print("Number of Years:%d"%year)
+print("Number of Week:%d"%month)
+print("Number of Days:%d"%days)
