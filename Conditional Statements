@@ -1,6 +1,29 @@
 name=int(input())
-if(name>35): print("Pass")
+if(name>=35): print("Pass")
 else: print("Fail")
+
+Given 2 integer input check whether the 2 input are "Equal" or "Not Equal" and print the corresponding message.
+
+n1=int(input())
+n2=int(input())
+if n1==n2: print("Equal")
+else: print("Not Equal")
+
+ODD/EVEN
+
+MIN /MAX
+
+POS NEG ZERO
+
+Vowel/Consonant
+
+Leap/NOn leap
+
+Upp/Lower
+
+alpha/Numeric/Special char
+
+
 Accept an integer value and print the corresponding character associated with the integer value.
 
 num1=int(input())
@@ -8,4 +31,27 @@ if num1>=0 and num1<=127:
     print(num1,":",chr(num1))
 else:
     print(num1, "Invalid Input" ,sep=":")
+
+
+
+Given electricity unit charge,calculate the total electricity bill according to the given condition: 
+
+For First 50 Units Rs.0.50/unit 
+
+For next 100 Units Rs.0.75/unit 
+
+For next 100 Units Rs.1.20/unit 
+
+For unit above 250 Rs.1.50/unit
+
+An additional surcharge of 20% is added to the bill.
+
+
+
+
+triangle is Equilateral or Isosceles or Scalene based on its side
+
+MIN/MAX of 3 numbers
+
+Asc/Des
 
