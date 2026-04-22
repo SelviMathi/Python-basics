@@ -1,0 +1,3 @@
+name=int(input())
+if(name>35): print("Pass")
+else: print("Fail")
