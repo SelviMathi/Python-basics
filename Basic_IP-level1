@@ -25,7 +25,16 @@ int to float
 int to bool
 bool to str
 
+EXAMPLE:
 
+Print Name along age
+
+name=input()
+age=input()
+print("My name is: ",name)
+print("Age is: ",age)
+
+Print Name ,age, Address
 1.Print  Let's learn 'PYTHON' with Selvi
 
 print("Let's learn 'Python' together with Selvi")
