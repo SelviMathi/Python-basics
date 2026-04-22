@@ -1,3 +1,11 @@
 name=int(input())
 if(name>35): print("Pass")
 else: print("Fail")
+Accept an integer value and print the corresponding character associated with the integer value.
+
+num1=int(input())
+if num1>=0 and num1<=127:
+    print(num1,":",chr(num1))
+else:
+    print(num1, "Invalid Input" ,sep=":")
+
